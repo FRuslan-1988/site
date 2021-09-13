@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 25px;
+    color: #2c3e50;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 0 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    color: #76818d;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #76818d;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.btn:hover {
+    border-radius: 25px;
+    color: black;
+    border-color: black;
+    transition: all 0.3s;
+}
+
+.nature {
+    padding: 15px;
+    height: 350px;
+    overflow: auto;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+.rock-a {
+    background: url("../img/background/background_rock_1.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+}
+.rock-b {
+    background: url("../img/background/background_rock_2.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+}
+.rock-c {
+    background: url("../img/background/background_rock_3.jpg") 0 0 no-repeat fixed;
+    background-size: cover;
+}
+
+/* header */
+.header {
+    min-height: 100vh;
+}
+.header__intro {
+    text-align: center;
+    padding: 30px 30px 15px;
+}
+.header__intro-img {
+    max-width: 250px;
+}
+.header__intro-title {
+    font-size: 70px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.header__intro-subtitle {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+/* main */
+.block {
+    padding: 15px 30px;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 700;
+}
+.content {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.img {
+    max-width: 150px;
+    width: 100%;
+}
+.wrap {
+    margin: 0 15px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.block__container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+    border-radius: 5px;
+}
+.html {
+    width: 80%;
+    background-color: #4caf50;
+}
+.css {
+    width: 60%;
+    background-color: #2196f3;
+}
+.js {
+    width: 40%;
+    background-color: #f44336;
+}
+
+.footer {
+    padding: 10px 30px;
+    background-color: green;
+}
